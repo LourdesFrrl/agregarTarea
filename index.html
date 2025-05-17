@@ -11,14 +11,14 @@
   <div class="container mt-5">
     <h1 class="text-center mb-4">📝 Lista de Tareas</h1>
 
-    <div class="mb-3 d-flex flex-column gap-2 align-items-center">
+    <form class="mb-3 d-flex flex-column gap-2 align-items-center" id="formularioTarea">
       <input type="text" id="inputTarea" class="form-control" placeholder="Escribí una tarea">
-      <button id="btnAgregar" class="btn btn-success w-25">Agregar</button>
-    </div>
+      <button id="btnAgregar" class="btn btn-success w-25" type="submit">Agregar</button>
+    </form>
 
     <ul id="listaTareas" class="list-group">
     </ul>
   </div>
-
+<script src="./JS/agregarTarea.js"></script>
 </body>
 </html>
